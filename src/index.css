@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+html {
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --PRIMARY: #10e956;
+  --SECONDARY: white;
+  --BG-COLOR: black;
+}
+
+::selection {
+  background: var(--PRIMARY);
+  color: var(--SECONDARY);
+}
+
+body {
+  padding: 2rem 6rem;
+  background-color: var(--BG-COLOR);
+  color: var(--SECONDARY);
+}
+
+.heading {
+  font-size: 5rem;
+  text-align: center;
+  margin: 1.7rem 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--PRIMARY);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 2rem 4rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  body {
+    padding: 2rem 2rem;
+  }
+}
+/* gold
+#6200ee
+#10e956
+hsl(342, 92%, 46%) */
