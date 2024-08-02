@@ -97,7 +97,7 @@ const projects = [
     stack: [{ name: "React.js" }, { name: "Css" }],
     image: proj_7,
     live: "#home",
-    github: "https://github.com/ermiyastesfaye-lab/UGR-6782-14-tailwind",
+    github: "https://github.com/ermiyastesfaye-lab/my_portfolio",
   },
 ];
 
